@@ -1,4 +1,5 @@
 const socks5 = require('node-socks5-server');
+require("./job")
 
 const users = {
   'mahbodsr': 'topcs1.6',
