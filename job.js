@@ -1,7 +1,7 @@
 const { CronJob } = require("cron");
 const https = require("https");
 
-const backendUrl = "https://proxy-vless.onrender.com";
+const backendUrl = "https://socks5-jofx.onrender.com";
 new CronJob("*/10 * * * *", () => {
   https
     .get(backendUrl, (res) => {
